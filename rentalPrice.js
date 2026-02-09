@@ -11,8 +11,8 @@ const LICENSE_PRICE_INCREASE_YEARS = 2;
 const LICENSE_PRICE_INCREASE_MULTIPLIER = 1.3;
 const LICENSE_HIGH_SEASON_SURCHARGE_YEARS = 3;
 const LICENSE_HIGH_SEASON_DAILY_SURCHARGE = 15;
-const HIGH_SEASON_START_MONTH = 3; // April (0-based month index)
-const HIGH_SEASON_END_MONTH = 9; // October (0-based month index)
+const HIGH_SEASON_START_MONTH = 3; // April (0=Jan)
+const HIGH_SEASON_END_MONTH = 9; // October (0=Jan)
 const SEASON_HIGH = "High";
 const SEASON_LOW = "Low";
 const CLASS_COMPACT = "Compact";
